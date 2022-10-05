@@ -290,9 +290,10 @@ img {
   border-radius: 0;
 }
 
-#project3 {
+form {
+  display: flex;
+  flex-direction: column;
 }
-
 #contact {
   display: flex;
   padding-top: 3em;
