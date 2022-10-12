@@ -193,15 +193,17 @@ img {
   font-size: 2rem;
 }
 .package-buy-btn {
+  display: inline-block;
+  text-align: center;
   margin-top: 1em;
   margin-bottom: 2em;
   background-color: white;
   font-weight: 600;
   font-size: 1.3rem;
   border-radius: 5px;
-  width: 100%;
+  width: 100% !important;
   padding: 0.7em 0;
-  border: 0;
+  text-decoration: none;
 }
 .package ul {
   margin-left: 1em;

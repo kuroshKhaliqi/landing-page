@@ -18,7 +18,9 @@
 
   #home {
     width: 100vw !important;
-    height: 65vh;
+    padding-top: 16em;
+    padding-bottom: 5em;
+    height: fit-content;
   }
 
   .home-content {
@@ -45,6 +47,10 @@
     width: 80%;
     margin: 1em 0;
     font-size: 1.2rem;
+  }
+  .package-buy-btn {
+    text-decoration: none;
+    margin: 2em auto !important;
   }
   #project-1,
   #project-2,
@@ -79,7 +85,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (min-width: 481px) and (max-width: 850px) {
   .nav-container {
     flex-direction: column;
     padding: 1em;
@@ -113,6 +119,10 @@
   }
   .package {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   #contact {
     flex-direction: column;
