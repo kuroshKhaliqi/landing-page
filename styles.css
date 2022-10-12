@@ -204,6 +204,7 @@ img {
   width: 100% !important;
   padding: 0.7em 0;
   text-decoration: none;
+  color: black;
 }
 .package ul {
   margin-left: 1em;

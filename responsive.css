@@ -124,6 +124,13 @@
     align-items: center;
     justify-content: center;
   }
+  .project {
+    padding: 2em 5em !important;
+  }
+  .project-content {
+    width: 70%;
+  }
+
   #contact {
     flex-direction: column;
   }
